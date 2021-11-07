@@ -146,7 +146,7 @@ public void remove(int value){ //удаление эленмента, содер
     if (element1.data == value){
         element1=element1.child;}
     else {
-            while (tempElement.child!=null){
+            while (tempElement!=null){
 
                 if (tempElement.data != value) {
                     prevElement = tempElement;   
